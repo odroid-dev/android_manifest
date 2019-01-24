@@ -56,7 +56,7 @@
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source" remote="origin" />
   <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal" remote="origin" />
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input" remote="origin" />
-  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" remote="origin" />
+  <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="origin" />
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="origin" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="origin" />
