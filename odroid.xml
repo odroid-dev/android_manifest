@@ -2,10 +2,10 @@
 <manifest>
   <remote  name="origin"
            revision="refs/heads/s922_9.0.0_master"
-           fetch=".." />
+           fetch="https://github.com/codewalkerster/" />
 
   <remote  name="hardkernel"
-           fetch=".." />
+           fetch="https://github.com/hardkernel/" />
 
   <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01" />
