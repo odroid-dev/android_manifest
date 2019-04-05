@@ -33,6 +33,7 @@
   </project>
 
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
+  <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="origin" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" />
