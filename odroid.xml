@@ -15,6 +15,7 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
 
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
+  <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="origin" />
 
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
 
@@ -49,7 +50,6 @@
   <project name="android_hardware_amlogic_hdmi_cec" path="hardware/amlogic/hdmi_cec" remote="origin" />
   <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" remote="origin" />
   <project name="android_hardware_amlogic_keymaster" path="hardware/amlogic/keymaster" remote="origin" />
-  <project name="android_hardware_amlogic_lights" path="hardware/amlogic/lights" remote="origin" />
   <project name="android_hardware_amlogic_media" path="hardware/amlogic/media" remote="origin" />
   <project name="android_hardware_amlogic_media_modules" path="hardware/amlogic/media_modules" remote="origin" />
   <project name="android_hardware_amlogic_memtrack" path="hardware/amlogic/memtrack" remote="origin" />
