@@ -14,6 +14,7 @@
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
 
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="origin" />
 
