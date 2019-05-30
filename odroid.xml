@@ -71,6 +71,8 @@
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="origin" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="origin" />
 
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="origin" />
+  <project path="prebuilts/vndk/v27" name="android_prebuilts_vndk_v27" groups="pdk" remote="origin" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="origin" />
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="origin" />
