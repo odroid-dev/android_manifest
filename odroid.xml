@@ -79,6 +79,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="origin" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="origin" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="origin" />
+  <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="refs/heads/master" />
   <project path="vendor/amlogic/darwin" name="android_vendor_amlogic_darwin" remote="origin" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" />
 
