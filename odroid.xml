@@ -19,7 +19,7 @@
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="origin" />
   <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="origin" />
 
-  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" revision="s922_9.0.0_64_master" />
 
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
