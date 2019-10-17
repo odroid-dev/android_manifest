@@ -23,6 +23,7 @@
 
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
+  <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="origin" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="origin" />
   <project path="build/make" name="android_build" groups="pdk" remote="origin" >
