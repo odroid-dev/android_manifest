@@ -24,6 +24,7 @@
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="origin" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="origin" />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="origin" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="origin" />
   <project path="build/make" name="android_build" groups="pdk" remote="origin" >
@@ -63,6 +64,7 @@
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source" remote="origin" />
   <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal" remote="origin" />
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input" remote="origin" />
+  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi" remote="origin" />
   <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="origin" />
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="origin" />
