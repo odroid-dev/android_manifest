@@ -117,5 +117,6 @@
   <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="origin" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="origin" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="origin" />
+  <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="origin" />
 
 </manifest>
