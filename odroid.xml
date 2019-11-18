@@ -8,7 +8,7 @@
            fetch="https://github.com/hardkernel/" />
 
   <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01-android" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01" />
 
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="s922_9.0.0_64_master" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
