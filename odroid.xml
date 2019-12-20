@@ -10,6 +10,7 @@
   <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01" />
 
+  <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="s922_9.0.0_64_master" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
@@ -38,6 +39,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
 
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="origin" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
   <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="origin" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="origin" />
@@ -76,6 +78,7 @@
   <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="origin" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="origin" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="origin" />
 
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="origin" />
@@ -83,6 +86,7 @@
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="origin" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="origin" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="origin" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="origin" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="origin" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="origin" />

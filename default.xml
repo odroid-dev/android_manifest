@@ -19,7 +19,6 @@
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/google/atv" name="device/google/atv" group="device,broadcom_pdk,generic_fs,pdk" />
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
@@ -78,7 +77,6 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
@@ -444,7 +442,6 @@
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
   <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" />
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
@@ -526,7 +523,6 @@
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
