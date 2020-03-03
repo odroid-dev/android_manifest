@@ -7,11 +7,12 @@
   <remote  name="hardkernel"
            fetch="https://github.com/hardkernel/" />
 
-  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01" />
+  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidg12-4.9.y-android" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01-android" />
 
   <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="s922_9.0.0_64_master" />
+  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="origin" revision="s905x3_9.0.0_64_master" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
 
