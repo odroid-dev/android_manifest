@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           revision="refs/heads/s922_9.0.0_master"
+           revision="refs/heads/g12_9.0.0_master"
            fetch="https://github.com/codewalkerster/" />
 
   <remote  name="hardkernel"
@@ -11,8 +11,8 @@
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01-android" />
 
   <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="s922_9.0.0_64_master" />
-  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="origin" revision="s905x3_9.0.0_64_master" />
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="g12_9.0.0_64_master" />
+  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="origin" revision="g12_9.0.0_64_master" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
 
