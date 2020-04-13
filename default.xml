@@ -21,6 +21,8 @@
            sync-j="4" />
 
   <!-- projects added/changed by secuflag -->
+  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
 
   <!-- projects added/changed by codewalkerster and HK -->
@@ -38,8 +40,6 @@
   <project path="common" name="linux" remote="hardkernel" revision="odroidg12-4.9.y-android" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="codewalkerster" />
-  <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="codewalkerster" revision="g12_9.0.0_64_master" />
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="codewalkerster" revision="g12_9.0.0_64_master" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
   <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
