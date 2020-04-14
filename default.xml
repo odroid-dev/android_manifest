@@ -33,6 +33,7 @@
   <project path="common" name="android_kernel_hardkernel" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
 
   <!-- projects added/changed by codewalkerster and HK -->
@@ -47,7 +48,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="codewalkerster" />
   <project path="frameworks/av" name="android_frameworks_av" remote="codewalkerster" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="codewalkerster" />
   <project path="frameworks/native" name="android_frameworks_native" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="codewalkerster" />
