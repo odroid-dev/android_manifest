@@ -31,6 +31,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project path="common" name="android_kernel_hardkernel" remote="odroid-dev" />
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
@@ -41,7 +42,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
-  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="codewalkerster" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
   <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
