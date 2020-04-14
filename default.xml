@@ -35,6 +35,7 @@
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
 
@@ -85,7 +86,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="codewalkerster" />
-  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="codewalkerster" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="codewalkerster" />
