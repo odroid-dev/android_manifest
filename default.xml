@@ -121,7 +121,6 @@
   <project path="vendor/amlogic/common/scripts" name="android_vendor_amlogic_common_scripts" remote="codewalkerster" />
   <project path="vendor/amlogic/common/system/droidvold" name="android_vendor_amlogic_common_system_droidvold" remote="codewalkerster" />
   <project path="vendor/amlogic/common/system" name="android_vendor_amlogic_common_system" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/tdk/linuxdriver" name="android_vendor_amlogic_common_tdk_linuxdriver" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tools" name="android_vendor_amlogic_common_tools" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="codewalkerster" />
