@@ -34,6 +34,7 @@
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
   <project path="packages/apps/RMSettings" name="android_packages_apps_RMSettings" remote="odroid-dev" />
@@ -432,7 +433,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" />
