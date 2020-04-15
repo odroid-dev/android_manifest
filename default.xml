@@ -51,6 +51,9 @@
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="master" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
+  <!-- external projects -->
+  <project path="external/exfat" name="relan/exfat" revision="master" remote="github" />
+
   <!-- projects added/changed by codewalkerster and HK -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
@@ -108,7 +111,6 @@
   <project path="system/vold" name="android_system_vold" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/busybox" name="android_vendor_amlogic_common_external_busybox" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/exfat" name="android_vendor_amlogic_common_external_exfat" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libaudioeffect" name="android_vendor_amlogic_common_external_libaudioeffect" remote="codewalkerster" />
