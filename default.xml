@@ -60,6 +60,7 @@
 
   <!-- external projects -->
   <project path="external/exfat" name="relan/exfat" revision="master" remote="github" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="lineage-16.0" remote="github" />
 
   <!-- projects added/changed by codewalkerster and HK -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
