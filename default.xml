@@ -45,7 +45,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
-  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
   <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
   <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
