@@ -54,6 +54,10 @@
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="master" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
+  <!-- GApps: pico and ATV -->
+  <project path="vendor/google/atv" name="secuflag/android_vendor_google_atv" clone-depth="1" revision="android-9.0" remote="gitlab" />
+  <project path="vendor/google/gapps" name="secuflag/android_vendor_google_gapps" clone-depth="1" revision="android-9.0" remote="gitlab" />
+
   <!-- external projects -->
   <project path="external/exfat" name="relan/exfat" revision="master" remote="github" />
 
