@@ -51,6 +51,7 @@
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
   <project path="packages/apps/RMSettings" name="android_packages_apps_RMSettings" remote="odroid-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="master" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
@@ -110,7 +111,6 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
-  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="codewalkerster" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="codewalkerster" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="codewalkerster" />
   <project path="system/bt" name="android_system_bt" remote="codewalkerster" />
