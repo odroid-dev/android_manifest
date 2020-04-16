@@ -98,7 +98,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="codewalkerster" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="codewalkerster" />
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="codewalkerster" />
-  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="codewalkerster" />
   <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="codewalkerster" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="codewalkerster" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="codewalkerster" />
@@ -146,9 +145,6 @@
   <project path="vendor/amlogic/common/tools" name="android_vendor_amlogic_common_tools" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="codewalkerster" />
-  <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="master" />
-  <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="codewalkerster" revision="master" />
-  <project path="vendor/hardkernel/interfaces" name="android_vendor_hardkernel_interfaces" remote="codewalkerster" revision="master" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
 
   <!-- Toolchains -->
