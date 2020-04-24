@@ -12,6 +12,10 @@
   <remote  name="hardkernel"
            fetch="https://github.com/hardkernel/" />
 
+  <remote  name="odroid-dev"
+           revision="android-9.0"
+           fetch="https://github.com/odroid-dev/" />
+
   <default revision="refs/tags/android-9.0.0_r46"
            remote="aosp"
            sync-j="4" />
