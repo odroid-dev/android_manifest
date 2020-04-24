@@ -48,6 +48,8 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
+  <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="odroid-dev" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
   <project path="packages/apps/RMSettings" name="android_packages_apps_RMSettings" remote="odroid-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
@@ -102,9 +104,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="codewalkerster" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="codewalkerster" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="codewalkerster" />
-  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
-  <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
