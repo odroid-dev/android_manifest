@@ -24,12 +24,6 @@ $ export CCACHE_DIR=/path/to/.ccache
 $ /usr/bin/ccache -M 50G
 ```
 
-#### __To build the arm64 variant:__
-
-```
-$ export ANDROID_BUILD_TYPE=64
-```
-
 #### __To build the Android TV variant:__
 
 ```
@@ -52,3 +46,4 @@ $ make -j$(nproc) selfinstall
 
 #### __For support refer to:__
 + ODROID-N2: https://forum.odroid.com/viewtopic.php?f=178&t=35463
++ ODROID-C4: https://forum.odroid.com/viewtopic.php?f=204&t=38579
