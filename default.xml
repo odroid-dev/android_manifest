@@ -55,7 +55,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
-  <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="master" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
   <!-- GApps: pico and ATV -->
