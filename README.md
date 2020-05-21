@@ -37,11 +37,22 @@ $ source build/envsetup.sh
 $ lunch odroid[c4|n2]-[userdebug|eng]
 ```
 
-#### __Compile Android image:__
+#### __Compile Android:__
 
 ```
 $ make -j$(nproc)
+```
+
+#### __Build selfinstall image:__
+
+```
 $ make -j$(nproc) selfinstall
+```
+
+#### __Build updatepackage:__
+
+```
+$ make -j$(nproc) updatepackage
 ```
 
 #### __For support refer to:__
