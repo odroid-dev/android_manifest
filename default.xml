@@ -148,7 +148,7 @@
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
 
   <!-- Toolchains -->
-  <project path="vendor/toolchains/gcc-9.x-aarch64-linux-gnu" name="gcc-9.x-aarch64-linux-gnu" revision="master" clone-depth="1" remote="odroid-dev" />
+  <project path="vendor/toolchains/gcc-10.x-aarch64-linux-gnu" name="gcc-10.x-aarch64-linux-gnu" revision="master" clone-depth="1" remote="odroid-dev" />
   <project path="vendor/toolchains/gcc-linaro-aarch64-none-elf-4.9-2014.09" name="gcc-linaro-aarch64-none-elf-4.9-2014.09_linux" revision="master" clone-depth="1" remote="odroid-dev" />
   <project path="vendor/toolchains/gcc-linaro-arm-none-eabi-4.8-2014.04" name="gcc-linaro-arm-none-eabi-4.8-2014.04_linux" revision="master" clone-depth="1" remote="odroid-dev" />
 
