@@ -27,6 +27,7 @@
            sync-j="4" />
 
   <!-- projects added/changed by secuflag -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="odroid-dev" />
   <project path="build/make" name="android_build_make" remote="odroid-dev" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -67,7 +68,6 @@
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="lineage-16.0" remote="github" />
 
   <!-- projects added/changed by codewalkerster and HK -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="external/afrd" name="android_external_afrd" remote="codewalkerster" />
