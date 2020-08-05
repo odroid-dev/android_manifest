@@ -46,17 +46,43 @@
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="odroid-dev" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="odroid-dev" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="odroid-dev" />
+  <project path="external/libavc" name="android_external_libavc" remote="odroid-dev" />
+  <project path="external/libcups" name="android_external_libcups" remote="odroid-dev" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="odroid-dev" />
+  <project path="external/libexif" name="android_external_libexif" remote="odroid-dev" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="odroid-dev" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-dev" />
+  <project path="external/ppp" name="android_external_ppp" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
+  <project path="external/v8" name="android_external_v8" remote="odroid-dev" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="odroid-dev" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-dev" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="odroid-dev" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="odroid-dev" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="odroid-dev" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="odroid-dev" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="odroid-dev" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="odroid-dev" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="odroid-dev" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
   <project path="packages/apps/RMSettings" name="android_packages_apps_RMSettings" remote="odroid-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-dev" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="odroid-dev" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="odroid-dev" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="odroid-dev" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="odroid-dev" />
+  <project path="system/bt" name="android_system_bt" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
+  <project path="system/nfc" name="android_system_nfc" remote="odroid-dev" />
+  <project path="system/security" name="android_system_security" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
   <!-- GApps: pico and ATV -->
@@ -76,8 +102,6 @@
   <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="codewalkerster" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="codewalkerster" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="codewalkerster" />
   <project path="hardware/amlogic/audio" name="android_hardware_amlogic_audio" remote="codewalkerster" />
@@ -102,17 +126,13 @@
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="codewalkerster" />
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="codewalkerster" />
   <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="codewalkerster" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="codewalkerster" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="codewalkerster" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="codewalkerster" />
-  <project path="system/bt" name="android_system_bt" remote="codewalkerster" />
   <project path="system/libhidl" name="android_system_libhidl" remote="codewalkerster" />
   <project path="system/media" name="android_system_media" remote="codewalkerster" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="codewalkerster" />
@@ -191,7 +211,6 @@
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/capstone" name="platform/external/capstone" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
@@ -208,7 +227,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="pdk" />
@@ -248,7 +266,6 @@
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
@@ -284,15 +301,12 @@
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" />
   <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
   <project path="external/libconstrainedcrypto" name="platform/external/libconstrainedcrypto" groups="pdk" />
-  <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
@@ -300,11 +314,8 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" />
   <project path="external/libmojo" name="platform/external/libmojo" groups="pdk" />
@@ -374,7 +385,6 @@
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
-  <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" />
@@ -465,7 +475,6 @@
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
@@ -541,7 +550,6 @@
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
@@ -550,9 +558,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
@@ -577,16 +583,12 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
-  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
@@ -643,9 +645,7 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
