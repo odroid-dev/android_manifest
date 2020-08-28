@@ -84,6 +84,7 @@
   <project path="system/extras" name="android_system_extras" remote="odroid-dev" />
   <project path="system/nfc" name="android_system_nfc" remote="odroid-dev" />
   <project path="system/security" name="android_system_security" remote="odroid-dev" />
+  <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
   <!-- GApps: pico and ATV -->
@@ -142,7 +143,6 @@
   <project path="system/vold" name="android_system_vold" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/busybox" name="android_vendor_amlogic_common_external_busybox" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libaudioeffect" name="android_vendor_amlogic_common_external_libaudioeffect" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" remote="codewalkerster" />
