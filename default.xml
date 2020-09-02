@@ -85,6 +85,7 @@
   <project path="system/nfc" name="android_system_nfc" remote="odroid-dev" />
   <project path="system/security" name="android_system_security" remote="odroid-dev" />
   <project path="vendor/amlogic/common/external/ffmpeg" name="android_vendor_amlogic_common_external_ffmpeg" remote="odroid-dev" />
+  <project path="vendor/amlogic/common/external/recovery" name="android_vendor_amlogic_common_external_recovery" remote="odroid-dev" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-dev" />
 
   <!-- GApps: pico and ATV -->
@@ -148,7 +149,6 @@
   <project path="vendor/amlogic/common/external/libzvbi" name="android_vendor_amlogic_common_external_libzvbi" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/ntfs-3g" name="android_vendor_amlogic_common_external_ntfs-3g" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/pppoe" name="android_vendor_amlogic_common_external_pppoe" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/recovery" name="android_vendor_amlogic_common_external_recovery" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="codewalkerster" />
