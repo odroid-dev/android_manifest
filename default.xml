@@ -50,6 +50,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="odroid-dev" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="odroid-dev" />
+  <project path="external/koush/Superuser" name="android_external_koush_Superuser" remote="odroid-dev" />
   <project path="external/libavc" name="android_external_libavc" remote="odroid-dev" />
   <project path="external/libcups" name="android_external_libcups" remote="odroid-dev" />
   <project path="external/libcxx" name="android_external_libcxx" remote="odroid-dev" />
@@ -101,7 +102,6 @@
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="external/afrd" name="android_external_afrd" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
-  <project path="external/koush/Superuser" name="Superuser" remote="codewalkerster" />
   <project path="external/koush/Widgets" name="Widgets" remote="codewalkerster" />
   <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
   <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
