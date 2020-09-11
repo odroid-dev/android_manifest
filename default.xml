@@ -58,11 +58,13 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="odroid-dev" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-dev" />
   <project path="external/ppp" name="android_external_ppp" remote="odroid-dev" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
   <project path="external/v8" name="android_external_v8" remote="odroid-dev" />
   <project path="frameworks/av" name="android_frameworks_av" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
   <project path="frameworks/native" name="android_frameworks_native" remote="odroid-dev" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="odroid-dev" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-dev" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="odroid-dev" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
@@ -80,6 +82,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="odroid-dev" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="odroid-dev" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="odroid-dev" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="odroid-dev" />
   <project path="system/bt" name="android_system_bt" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
   <project path="system/extras" name="android_system_extras" remote="odroid-dev" />
@@ -451,7 +454,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
@@ -521,7 +523,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -595,7 +596,6 @@
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
