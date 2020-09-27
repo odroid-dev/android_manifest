@@ -57,6 +57,7 @@
   <project path="external/libexif" name="android_external_libexif" remote="odroid-dev" />
   <project path="external/libhevc" name="android_external_libhevc" remote="odroid-dev" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-dev" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="odroid-dev" />
   <project path="external/ppp" name="android_external_ppp" remote="odroid-dev" />
   <project path="external/sonivox" name="android_external_sonivox" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
@@ -150,7 +151,6 @@
   <project path="vendor/amlogic/common/external/libaudioeffect" name="android_vendor_amlogic_common_external_libaudioeffect" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libzvbi" name="android_vendor_amlogic_common_external_libzvbi" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/ntfs-3g" name="android_vendor_amlogic_common_external_ntfs-3g" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/pppoe" name="android_vendor_amlogic_common_external_pppoe" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="codewalkerster" />
