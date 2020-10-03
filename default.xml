@@ -76,6 +76,7 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="odroid-dev" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="odroid-dev" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-dev" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="odroid-dev" />
   <project path="packages/apps/RMSettings" name="android_packages_apps_RMSettings" remote="odroid-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-dev" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-dev" />
@@ -564,7 +565,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
