@@ -143,6 +143,7 @@
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="codewalkerster" />
   <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="codewalkerster" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="codewalkerster" />
+  <project path="hardware/wifi/broadcom/drivers/esp8089" name="android_hardware_wifi_broadcom_drivers_esp8089" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
