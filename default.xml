@@ -118,6 +118,7 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
   <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
+  <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="codewalkerster" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
   <project path="hardware/amlogic/audio" name="android_hardware_amlogic_audio" remote="codewalkerster" />
