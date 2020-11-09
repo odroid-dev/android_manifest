@@ -46,6 +46,7 @@
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
+  <project path="external/aac" name="android_external_aac" remote="odroid-dev" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="odroid-dev" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="odroid-dev" />
@@ -73,6 +74,7 @@
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="odroid-dev" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="odroid-dev" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="odroid-dev" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="odroid-dev" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="odroid-dev" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="odroid-dev" />
@@ -87,6 +89,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="odroid-dev" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="odroid-dev" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="odroid-dev" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="odroid-dev" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="odroid-dev" />
   <project path="system/bt" name="android_system_bt" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
@@ -192,7 +195,6 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk" />
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" />
@@ -555,7 +557,6 @@
   <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
@@ -596,7 +597,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
