@@ -94,6 +94,7 @@
   <project path="system/bt" name="android_system_bt" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
   <project path="system/extras" name="android_system_extras" remote="odroid-dev" />
+  <project path="system/media" name="android_system_media" remote="odroid-dev" />
   <project path="system/nfc" name="android_system_nfc" remote="odroid-dev" />
   <project path="system/security" name="android_system_security" remote="odroid-dev" />
   <project path="system/vold" name="android_system_vold" remote="odroid-dev" />
@@ -152,7 +153,6 @@
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="codewalkerster" />
   <project path="system/libhidl" name="android_system_libhidl" remote="codewalkerster" />
-  <project path="system/media" name="android_system_media" remote="codewalkerster" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="codewalkerster" />
