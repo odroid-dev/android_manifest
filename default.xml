@@ -50,6 +50,7 @@
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="odroid-dev" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="odroid-dev" />
+  <project path="external/freetype" name="android_external_freetype" remote="odroid-dev" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="odroid-dev" />
   <project path="external/koush/Superuser" name="android_external_koush_Superuser" remote="odroid-dev" />
   <project path="external/libavc" name="android_external_libavc" remote="odroid-dev" />
@@ -66,6 +67,7 @@
   <project path="external/v8" name="android_external_v8" remote="odroid-dev" />
   <project path="frameworks/av" name="android_frameworks_av" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="odroid-dev" />
   <project path="frameworks/native" name="android_frameworks_native" remote="odroid-dev" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="odroid-dev" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="odroid-dev" />
@@ -263,7 +265,6 @@
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" />
   <project path="external/gflags" name="platform/external/gflags" groups="pdk" />
@@ -514,7 +515,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
