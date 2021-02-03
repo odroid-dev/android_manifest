@@ -60,11 +60,13 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="odroid-dev" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-dev" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="odroid-dev" />
+  <project path="external/okhttp" name="pandroid_external_okhttp" gremote="odroid-dev" />
   <project path="external/ppp" name="android_external_ppp" remote="odroid-dev" />
   <project path="external/sonivox" name="android_external_sonivox" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
   <project path="external/toybox" name="android_external_toybox" remote="odroid-dev" />
   <project path="external/v8" name="android_external_v8" remote="odroid-dev" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="odroid-dev" />
   <project path="frameworks/av" name="android_frameworks_av" remote="odroid-dev" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-dev" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="odroid-dev" />
@@ -75,6 +77,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="odroid-dev" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="odroid-dev" />
+  <project path="libcore" name="android_libcore" remote="odroid-dev" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="odroid-dev" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="odroid-dev" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="odroid-dev" />
@@ -122,7 +125,6 @@
   <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="codewalkerster" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
   <project path="hardware/amlogic/audio" name="android_hardware_amlogic_audio" remote="codewalkerster" />
   <project path="hardware/amlogic/bluetooth" name="android_hardware_amlogic_bluetooth" remote="codewalkerster" />
@@ -390,7 +392,6 @@
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
@@ -540,7 +541,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/tests" name="kernel/tests" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
