@@ -60,7 +60,7 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="odroid-dev" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-dev" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="odroid-dev" />
-  <project path="external/okhttp" name="pandroid_external_okhttp" gremote="odroid-dev" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="odroid-dev" />
   <project path="external/ppp" name="android_external_ppp" remote="odroid-dev" />
   <project path="external/sonivox" name="android_external_sonivox" remote="odroid-dev" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-dev" />
