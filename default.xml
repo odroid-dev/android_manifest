@@ -27,6 +27,7 @@
            sync-j="4" />
 
   <!-- projects added/changed by secuflag -->
+  <project path="art" name="android_art" remote="odroid-dev" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="odroid-dev" />
   <project path="build/make" name="android_build_make" remote="odroid-dev" >
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -49,6 +50,7 @@
   <project path="external/aac" name="android_external_aac" remote="odroid-dev" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="odroid-dev" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" revision="master" remote="odroid-dev" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="odroid-dev" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="odroid-dev" />
   <project path="external/freetype" name="android_external_freetype" remote="odroid-dev" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="odroid-dev" />
@@ -97,6 +99,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="odroid-dev" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="odroid-dev" />
   <project path="system/bt" name="android_system_bt" remote="odroid-dev" />
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
   <project path="system/extras" name="android_system_extras" remote="odroid-dev" />
   <project path="system/media" name="android_system_media" remote="odroid-dev" />
@@ -193,7 +196,6 @@
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -245,7 +247,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="pdk" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
@@ -638,7 +639,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
-  <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
