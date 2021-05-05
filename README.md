@@ -16,7 +16,7 @@ $ repo sync -j$(nproc) --no-tags --no-clone-bundle
 #### __Set up toolchains path:__
 
 ```
-$ export PATH=$PATH:/PATH/TO/mydroid/vendor/toolchains/gcc-10.x-aarch64-linux-gnu/bin
+$ export PATH=$PATH:/PATH/TO/mydroid/vendor/toolchains/gcc-11.x-aarch64-linux-gnu/bin
 $ export PATH=$PATH:/PATH/TO/mydroid/vendor/toolchains/gcc-linaro-aarch64-none-elf-4.9-2014.09_linux/bin
 $ export PATH=$PATH:/PATH/TO/mydroid/vendor/toolchains/gcc-linaro-arm-none-eabi-4.8-2014.04_linux/bin
 ```
