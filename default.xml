@@ -74,6 +74,7 @@
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="odroid-dev" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="odroid-dev" />
   <project path="frameworks/native" name="android_frameworks_native" remote="odroid-dev" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="odroid-dev" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="odroid-dev" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="odroid-dev" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-dev" />
@@ -103,6 +104,7 @@
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="odroid-dev" />
   <project path="system/core" name="android_system_core" remote="odroid-dev" />
   <project path="system/extras" name="android_system_extras" remote="odroid-dev" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="odroid-dev" />
   <project path="system/media" name="android_system_media" remote="odroid-dev" />
   <project path="system/nfc" name="android_system_nfc" remote="odroid-dev" />
   <project path="system/security" name="android_system_security" remote="odroid-dev" />
@@ -535,7 +537,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/lowpan" name="platform/frameworks/opt/net/lowpan" groups="pdk-fs" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
@@ -650,7 +651,6 @@
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
