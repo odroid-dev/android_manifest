@@ -78,6 +78,7 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="odroid-dev" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="odroid-dev" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="odroid-dev" />
+  <project path="hardware/amlogic/LibAudio" name="android_hardware_amlogic_LibAudio" remote="odroid-dev" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-dev" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="odroid-dev" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
@@ -148,7 +149,6 @@
   <project path="hardware/amlogic/hdmi_cec" name="android_hardware_amlogic_hdmi_cec" remote="codewalkerster" />
   <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" remote="codewalkerster" />
   <project path="hardware/amlogic/keymaster" name="android_hardware_amlogic_keymaster" remote="codewalkerster" />
-  <project path="hardware/amlogic/LibAudio" name="android_hardware_amlogic_LibAudio" remote="codewalkerster" />
   <project path="hardware/amlogic/media_modules" name="android_hardware_amlogic_media_modules" remote="codewalkerster" />
   <project path="hardware/amlogic/media" name="android_hardware_amlogic_media" remote="codewalkerster" />
   <project path="hardware/amlogic/memtrack" name="android_hardware_amlogic_memtrack" remote="codewalkerster" />
