@@ -185,7 +185,7 @@
   <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="codewalkerster" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="g12_p_master" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/gpu-lib" name="android_vendor_amlogic_common_gpu-lib" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/gpu-lib" name="android_vendor_amlogic_gpu-lib" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/hdcp" name="android_vendor_amlogic_common_hdcp" remote="codewalkerster" />
   <project path="vendor/amlogic/common/interfaces" name="android_vendor_amlogic_common_interfaces" remote="codewalkerster" />
   <project path="vendor/amlogic/common/ir_tools" name="android_vendor_amlogic_common_ir_tools" remote="codewalkerster" />
