@@ -78,7 +78,6 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="odroid-dev" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="odroid-dev" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="odroid-dev" />
-  <project path="hardware/amlogic/LibAudio" name="android_hardware_amlogic_LibAudio" remote="odroid-dev" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-dev" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="odroid-dev" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="android_hardware_wifi_broadcom_drivers_ap6xxx" remote="odroid-dev" />
@@ -131,6 +130,7 @@
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="lineage-16.0" remote="github" />
 
   <!-- projects added/changed by codewalkerster and HK -->
+  <project path="bionic" name="android_bionic" revision="g12_p_master" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="external/afrd" name="android_external_afrd" remote="codewalkerster" />
@@ -141,17 +141,18 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
-  <project path="hardware/amlogic/audio" name="android_hardware_amlogic_audio" remote="codewalkerster" />
+  <project path="hardware/amlogic/audio" name="android_hardware_amlogic_audio" revision="g12_p_master" remote="codewalkerster" />
   <project path="hardware/amlogic/bluetooth" name="android_hardware_amlogic_bluetooth" remote="codewalkerster" />
   <project path="hardware/amlogic/bootctrl" name="android_hardware_amlogic_bootctrl" remote="codewalkerster" />
   <project path="hardware/amlogic/camera" name="android_hardware_amlogic_camera" remote="codewalkerster" />
   <project path="hardware/amlogic/gatekeeper" name="android_hardware_amlogic_gatekeeper" remote="codewalkerster" />
-  <project path="hardware/amlogic/gralloc" name="android_hardware_amlogic_gralloc" remote="codewalkerster" />
+  <project path="hardware/amlogic/gralloc" name="android_hardware_amlogic_gralloc" revision="g12_p_master" remote="codewalkerster" />
   <project path="hardware/amlogic/hdmi_cec" name="android_hardware_amlogic_hdmi_cec" remote="codewalkerster" />
-  <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" remote="codewalkerster" />
+  <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" revision="g12_p_master" remote="codewalkerster" />
   <project path="hardware/amlogic/keymaster" name="android_hardware_amlogic_keymaster" remote="codewalkerster" />
-  <project path="hardware/amlogic/media_modules" name="android_hardware_amlogic_media_modules" remote="codewalkerster" />
-  <project path="hardware/amlogic/media" name="android_hardware_amlogic_media" remote="codewalkerster" />
+  <project path="hardware/amlogic/LibAudio" name="android_hardware_amlogic_LibAudio" revision="g12_p_master" remote="codewalkerster" />
+  <project path="hardware/amlogic/media_modules" name="android_hardware_amlogic_media_modules" revision="g12_p_master" remote="codewalkerster" />
+  <project path="hardware/amlogic/media" name="android_hardware_amlogic_media" revision="g12_p_master" remote="codewalkerster" />
   <project path="hardware/amlogic/memtrack" name="android_hardware_amlogic_memtrack" remote="codewalkerster" />
   <project path="hardware/amlogic/power" name="android_hardware_amlogic_power" remote="codewalkerster" />
   <project path="hardware/amlogic/screen_source" name="android_hardware_amlogic_screen_source" remote="codewalkerster" />
@@ -167,35 +168,37 @@
   <project path="hardware/wifi/mediatek/mt7610u" name="android_hardware_wifi_mediatek_mt7610u" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" revision="g12_p_master" remote="codewalkerster" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="codewalkerster" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" revision="g12_p_master" remote="codewalkerster" />
+  <project path="prebuilts/clang-tools" name="android_prebuilts_clang-tools" clone-depth="1" revision="g12_p_master" remote="codewalkerster" />
   <project path="system/libhidl" name="android_system_libhidl" remote="codewalkerster" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/external/icu" name="android_vendor_amlogic_common_external_icu" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libaudioeffect" name="android_vendor_amlogic_common_external_libaudioeffect" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/external/libtiff" name="android_vendor_amlogic_common_external_libtiff" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/libzvbi" name="android_vendor_amlogic_common_external_libzvbi" remote="codewalkerster" />
   <project path="vendor/amlogic/common/external/pppoe" name="android_vendor_amlogic_common_external_pppoe" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/gpu-lib" name="android_vendor_amlogic_common_gpu-lib" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/hdcp" name="android_vendor_amlogic_common_hdcp" remote="codewalkerster" />
   <project path="vendor/amlogic/common/interfaces" name="android_vendor_amlogic_common_interfaces" remote="codewalkerster" />
   <project path="vendor/amlogic/common/ir_tools" name="android_vendor_amlogic_common_ir_tools" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="android_vendor_amlogic_common_prebuilt_libmediadrm" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/prebuilt/libmedia" name="android_vendor_amlogic_common_prebuilt_libmedia" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="android_vendor_amlogic_common_prebuilt_libstagefrighthw" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/prebuilt/libmediadrm" name="android_vendor_amlogic_common_prebuilt_libmediadrm" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/prebuilt/libmedia" name="android_vendor_amlogic_common_prebuilt_libmedia" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/prebuilt/libstagefrighthw" name="android_vendor_amlogic_common_prebuilt_libstagefrighthw" revision="g12_p_master" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/provision" name="android_vendor_amlogic_common_provision" remote="codewalkerster" />
   <project path="vendor/amlogic/common/scripts" name="android_vendor_amlogic_common_scripts" remote="codewalkerster" />
   <project path="vendor/amlogic/common/system/droidvold" name="android_vendor_amlogic_common_system_droidvold" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/system" name="android_vendor_amlogic_common_system" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/system" name="android_vendor_amlogic_common_system" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tools" name="android_vendor_amlogic_common_tools" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="codewalkerster" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="codewalkerster"/>
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
@@ -207,7 +210,6 @@
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -615,7 +617,6 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
