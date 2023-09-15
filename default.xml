@@ -200,6 +200,7 @@
   <project path="vendor/amlogic/common/tools" name="android_vendor_amlogic_common_tools" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" revision="g12_p_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="codewalkerster" />
+  <project path="vendor/hardkernel/external/boblight" name="android_vendor_hardkernel_external_boblight" revision="master" remote="codewalkerster" />
   <project path="vendor/hardkernel/external/can-utils" name="android_vendor_hardkernel_external_can_utils" remote="codewalkerster"/>
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
 
