@@ -43,7 +43,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="common" name="android_kernel_hardkernel" remote="odroid-dev" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-dev" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="odroid-dev" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-dev" />
@@ -132,6 +131,7 @@
   <!-- projects added/changed by codewalkerster and HK -->
   <project path="bionic" name="android_bionic" revision="g12_p_master" remote="codewalkerster" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01-p" />
+  <project path="common" name="linux" revision="odroidg12-4.9.y-p-android" remote="hardkernel" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="external/afrd" name="android_external_afrd" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
