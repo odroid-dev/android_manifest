@@ -131,7 +131,7 @@
 
   <!-- projects added/changed by codewalkerster and HK -->
   <project path="bionic" name="android_bionic" revision="g12_p_master" remote="codewalkerster" />
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidg12-v2015.01-p" />
   <project path="device/google/atv" name="android_device_google_atv" remote="codewalkerster" />
   <project path="external/afrd" name="android_external_afrd" remote="codewalkerster" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="codewalkerster" />
